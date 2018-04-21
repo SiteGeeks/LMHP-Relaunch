@@ -1,0 +1,266 @@
+.wpsvoce-options {
+	max-width: 960px;
+}
+.wpsvoce-options .input-group {
+	display: block;
+	margin-bottom: 6px;
+}
+.wpsvoce-options form:not(.hooks-form) .notes {
+	display: block;
+	margin-top: 10px;
+}
+
+/* Save changes and changes saved alert boxes */
+.wrap.wpsvoce-options .half.updated,
+.wrap.wpsvoce-options .half.save-settings {
+	float: left;
+	width: 35%;
+	min-width: 240px;
+	margin-right: 10px;
+}
+
+.save-settings {
+	background: #fff;
+	border-left: 4px solid #2ea2cc;
+	padding: 1px 12px;
+	margin: 8px 0 10px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 	0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 		0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.save-settings p {
+	margin: .5em 0;
+	padding: 2px;
+}
+
+.wpsvoce-options .radius {
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+}
+
+/* Keep tabbed options below alert messages */
+.nav-tab-wrapper {
+	clear: both;
+}
+.nav-tab {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+h2 .nav-tab {
+	text-transform: capitalize;
+}
+
+/* Form content formatting */
+.wpsvoce-options form h3 {
+	background: #34495e;
+	font-size: 18px;
+	font-family: monospace;
+	color:#fff;
+	font-weight: normal;
+	padding: 10px;
+	margin-top: 20px;
+	border-left: 4px solid #34495e;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 	0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 		0 1px 1px 0 rgba(0,0,0,.1);
+}
+.wpsvoce-options hr {
+	clear: both;
+	background: rgba(0,0,0,.05);
+	border: 0;
+	height: 3px;
+	margin: 2em 0;
+}
+
+.wpsvoce-options ul.list {
+	margin-top: 0;
+}
+
+/* For multiple radio buttons and labels on one line, create spacing */
+.wpsvoce-options .label-space {
+	margin-right: 20px;
+}
+
+.wpsvoce-options .hook-label-space {
+	margin-right: 12px;
+}
+
+.wpsvoce-options .checkbox-space {
+	margin-right: 3px;
+}
+
+/* Columns layout images and radio buttons */
+.wpsvoce-options .layout-label {
+	position: relative;
+	margin: 0 10px 18px 0 !important;
+	display: inline-block;
+	width: 90px;
+	height: 60px;
+}
+
+.wpsvoce-options .layout-label input + img {
+	background: #ccc;
+	padding: 2px;
+}
+
+.wpsvoce-options .layout-label input + img:hover {
+	background: #aaa;
+}
+
+.wpsvoce-options .layout-label input:checked + img {
+	background: #34495e;
+}
+
+.wpsvoce-options .layout-radio {
+	display: none;
+}
+
+/* Additional options information */
+.wpsvoce-options h2.voce-options-title {
+	padding-left: 30px;
+}
+
+.wpsvoce-options .notes {
+	color: #999;
+	font-style: italic;
+}
+
+.wpsvoce-options .instructions {
+	background: #ffffe0;
+	padding: 15px;
+	max-width: 650px;
+	border-left: 4px solid #D1D15F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 	0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 		0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.wpsvoce-options .instructions p,
+.voce-information td p {
+	margin: 0 0 1.5em;
+}
+
+.wpsvoce-options .instructions p:last-of-type {
+	margin-bottom: 0;
+}
+
+/* Hooks form formatting */
+.hook-selector {
+	position: fixed;
+	background: #fff;
+	padding: 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 710px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	width: 220px;
+}
+.hook-selector h2 {
+	padding-top: 0;
+}
+.hook-selector select {
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+
+.solution pre{
+	background:#fff;
+	padding:15px;
+	border-radius:7px;
+}
+
+@media screen and (max-width: 1162px) {
+	.wpsvoce-options .instructions {
+		max-width: 558px;
+	}
+	.hook-selector {
+		width: 190px;
+		margin-left: 612px;
+	}
+}
+@media screen and (max-width: 880px) {
+	.hook-selector {
+		position: static;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+.wpsvoce-options .hook-field {
+	margin-top: 5px;
+}
+
+.wpsvoce-options .hook-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+
+.wpsvoce-options .hook-info {
+	display: block;
+}
+
+.hide-on {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.wpsvoce-options .submit-hooks {
+	margin-bottom: 30px;
+}
+
+/* metabox options */
+.postbox-container .input-group input[type=checkbox] {
+	margin: 0 20px 0 3px;
+}
+
+
+/* WP 3.8+ responsive dashboard */
+@media screen and (max-width: 782px) {
+	.save-settings {
+		padding: 5px 10px;
+		margin: 20px 0 5px;
+	}
+
+	h2.nav-tab-wrapper {
+		padding: 10px 0 0;
+		width: 100%;
+	}
+
+	h2 .nav-tab {
+		display: block;
+		margin: 0;
+	}
+
+	.nav-tab-active,
+	.nav-tab-active:hover {
+		border-width: 1px 1px 0;
+	}
+
+	.input-group,
+	.input-hook-conditions {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.hook-field,
+	.custom-class {
+		max-width: 100%;
+	}
+}
